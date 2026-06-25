@@ -1,0 +1,100 @@
+"use client";
+
+import Image from "next/image";
+import { ArrowRight, MousePointer, ChevronDown } from "lucide-react";
+import { Button } from "@/components/ui";
+import { cn } from "@/lib/utils";
+
+export function Hero() {
+  const scrollToSection = (href: string) => {
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  return (
+    <header
+      id="hero"
+      className="relative min-h-screen flex items-center justify-center pt-16 pb-20 px-4 md:px-6 lg:px-8"
+      role="banner"
+    >
+      <div className="max-w-6xl mx-auto w-full">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div className="text-center lg:text-left">
+            <p className="text-sm font-medium text-accent tracking-wider uppercase mb-6">
+              Web Developer
+            </p>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-balance leading-[1.1] mb-6">
+              Raphael Ejeogo
+            </h1>
+            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0">
+              Helping local businesses convert visitors into customers with fast,
+              accessible websites built on modern technology.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <Button
+                size="lg"
+                onClick={() => scrollToSection("#contact")}
+                className="group w-full sm:w-auto"
+              >
+                Book a Free Audit Call
+                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
+              </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                onClick={() => scrollToSection("#work")}
+                className="w-full sm:w-auto"
+              >
+                See My Work
+                <MousePointer className="ml-2 h-4 w-4" aria-hidden="true" />
+              </Button>
+            </div>
+            <div className="mt-12 flex flex-wrap items-center justify-center lg:justify-start gap-8 text-sm text-muted-foreground">
+              <div className="flex items-center gap-2">
+                <span className="font-mono text-accent">5+</span>
+                <span>Years Experience</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-mono text-accent">50+</span>
+                <span>Sites Shipped</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-mono text-accent">12</span>
+                <span>Countries Served</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="relative">
+            <div className="relative aspect-square max-w-md mx-auto">
+              <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent rounded-3xl blur-2xl" />
+              <div className="relative rounded-3xl border border-border bg-card p-1 shadow-2xl">
+                <div className="rounded-2xl border border-border bg-background p-6 md:p-8 min-h-[320px] flex flex-col items-center justify-center">
+                  <div className="w-full max-w-xs mx-auto">
+                    <div className="aspect-video rounded-xl bg-muted border border-border mb-4 flex items-center justify-center">
+                      <span className="text-muted-foreground text-sm">Photo Placeholder</span>
+                    </div>
+                    <p className="text-center text-sm text-muted-foreground">
+                      Professional headshot goes here
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 animate-bounce" aria-hidden="true">
+              <button
+                onClick={() => scrollToSection("#about")}
+                className="rounded-full bg-card border border-border p-3 shadow-lg hover:bg-muted transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                aria-label="Scroll to about section"
+              >
+                <ChevronDown className="h-5 w-5 text-muted-foreground" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+}
