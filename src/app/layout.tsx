@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const inter = Inter({
@@ -51,7 +52,7 @@ export const metadata: Metadata = {
     description: "Web developer helping local businesses convert visitors into customers. Fast, accessible websites built with modern technology.",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "/images/og-image.svg",
         width: 1200,
         height: 630,
         alt: "Raphael Ejeogo — Web Developer",
@@ -62,13 +63,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Raphael Ejeogo — Web Developer",
     description: "Web developer helping local businesses convert visitors into customers. Free audit available.",
-    images: ["/images/og-image.png"],
+    images: ["/images/og-image.svg"],
     creator: "@raphaelejeogo",
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    icon: "/favicon.svg",
+    apple: "/apple-touch-icon.svg",
   },
   manifest: "/site.webmanifest",
   other: {
@@ -82,7 +82,7 @@ const structuredData = {
   name: "Raphael Ejeogo",
   description: "Web developer helping local businesses convert visitors into customers.",
   url: "https://raphaelejeogo.com",
-  image: "https://raphaelejeogo.com/images/og-image.png",
+  image: "https://raphaelejeogo.com/images/og-image.svg",
   email: "hello@raphaelejeogo.com",
   address: {
     "@type": "PostalAddress",
@@ -138,6 +138,7 @@ export default function RootLayout({
           Skip to main content
         </a>
         {children}
+        <Analytics />
       </body>
     </html>
   );

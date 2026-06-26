@@ -1,7 +1,7 @@
-import { HTMLAttributes, ReactNode } from "react";
+import { HTMLAttributes, ReactNode, ComponentPropsWithoutRef } from "react";
 import { cn } from "@/lib/utils";
 
-export interface SectionProps extends HTMLAttributes<HTMLSectionElement> {
+export interface SectionProps extends ComponentPropsWithoutRef<"section"> {
   children: ReactNode;
   id?: string;
   className?: string;

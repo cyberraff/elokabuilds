@@ -1,0 +1,9 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#1a1a1a"/>
+  <rect x="50" y="50" width="700" height="350" rx="16" fill="#121212" stroke="#27272a" stroke-width="2"/>
+  <text x="400" y="200" font-family="system-ui, sans-serif" font-size="28" font-weight="600" fill="#fafafa" text-anchor="middle">Local Retail</text>
+  <text x="400" y="240" font-family="system-ui, sans-serif" font-size="16" fill="#a1a1aa" text-anchor="middle">E-commerce / Retail</text>
+  <text x="400" y="280" font-family="system-ui, sans-serif" font-size="14" fill="#f59e0b" text-anchor="middle">+120% Revenue • PageSpeed 95</text>
+  <rect x="325" y="320" width="150" height="40" rx="6" fill="#27272a"/>
+  <text x="400" y="347" font-family="system-ui, sans-serif" font-size="14" fill="#a1a1aa" text-anchor="middle">Placeholder</text>
+</svg>

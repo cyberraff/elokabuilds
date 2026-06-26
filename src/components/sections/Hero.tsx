@@ -67,22 +67,22 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="relative aspect-square max-w-md mx-auto">
-              <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent rounded-3xl blur-2xl" />
-              <div className="relative rounded-3xl border border-border bg-card p-1 shadow-2xl">
-                <div className="rounded-2xl border border-border bg-background p-6 md:p-8 min-h-[320px] flex flex-col items-center justify-center">
-                  <div className="w-full max-w-xs mx-auto">
-                    <div className="aspect-video rounded-xl bg-muted border border-border mb-4 flex items-center justify-center">
-                      <span className="text-muted-foreground text-sm">Photo Placeholder</span>
-                    </div>
-                    <p className="text-center text-sm text-muted-foreground">
-                      Professional headshot goes here
-                    </p>
+            <div className="relative">
+              <div className="relative aspect-square max-w-md mx-auto">
+                <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent rounded-3xl blur-2xl" />
+                <div className="relative rounded-3xl border border-border bg-card p-1 shadow-2xl">
+                  <div className="rounded-2xl border border-border bg-background overflow-hidden min-h-[320px]">
+                    <Image
+                      src="/images/og-image.svg"
+                      alt="Raphael Ejeogo"
+                      fill
+                      priority
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
                   </div>
                 </div>
               </div>
-            </div>
             <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 animate-bounce" aria-hidden="true">
               <button
                 onClick={() => scrollToSection("#about")}
