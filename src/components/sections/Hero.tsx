@@ -22,14 +22,13 @@ export function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="text-center lg:text-left">
             <p className="text-sm font-medium text-accent tracking-wider uppercase mb-6">
-              Web Developer
+              ELOKA BUILDS
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-balance leading-[1.1] mb-6">
-              Raphael Ejeogo
+              Websites that turn visitors into paying customers
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0">
-              Helping local businesses convert visitors into customers with fast,
-              accessible websites built on modern technology.
+              We build a finished, ready-to-launch site for your business before you ever pay us a dime. If you like it, you publish it. If you don&apos;t, walk away — no cost, no risk.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button
@@ -37,7 +36,7 @@ export function Hero() {
                 onClick={() => scrollToSection("#contact")}
                 className="group w-full sm:w-auto"
               >
-                Book a Free Audit Call
+                See how it works
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
               </Button>
               <Button
@@ -46,7 +45,7 @@ export function Hero() {
                 onClick={() => scrollToSection("#work")}
                 className="w-full sm:w-auto"
               >
-                See My Work
+                View recent builds
                 <MousePointer className="ml-2 h-4 w-4" aria-hidden="true" />
               </Button>
             </div>

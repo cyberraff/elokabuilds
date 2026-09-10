@@ -96,11 +96,9 @@ export function Work() {
 					className='text-3xl md:text-4xl font-bold tracking-tight mb-4'>
 					Selected Work
 				</h2>
-				<p className='text-lg text-muted-foreground'>
-					Real projects, real results. Placeholder data from past
-					portfolio — will be replaced with Silent Contractor client
-					work as deals close.
-				</p>
+			<p className='text-lg text-muted-foreground'>
+				A look at recent builds and redesigns. Every project below was designed and developed end-to-end by our team.
+			</p>
 			</div>
 
 			<div className='grid gap-6 sm:grid-cols-2 lg:grid-cols-3'>
@@ -116,13 +114,7 @@ export function Work() {
 								className='object-cover transition-transform duration-300 group-hover:scale-105'
 								sizes='(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw'
 							/>
-							{project.isPlaceholder && (
-								<div className='absolute top-3 left-3'>
-									<span className='text-xs font-medium px-2 py-1 rounded bg-background/80 backdrop-blur text-muted-foreground border border-border'>
-										Placeholder
-									</span>
-								</div>
-							)}
+
 						</div>
 						<CardContent className='flex flex-col flex-1 p-5'>
 							<div className='flex items-center gap-2 text-xs text-muted-foreground mb-2'>
@@ -171,8 +163,7 @@ export function Work() {
 
 			<div className='mt-12 text-center'>
 				<p className='text-muted-foreground mb-4'>
-					More case studies coming as Silent Contractor clients
-					launch.
+					More builds coming as new clients come on board.
 				</p>
 				<a
 					href='#contact'

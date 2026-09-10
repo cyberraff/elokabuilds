@@ -9,10 +9,10 @@ export function About() {
     <Section id="about" size="lg" aria-labelledby="about-heading">
       <div className="text-center max-w-3xl mx-auto mb-16">
         <h2 id="about-heading" className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-          About
+          Why Eloka Builds
         </h2>
         <p className="text-lg text-muted-foreground">
-          A real person building real websites. No agencies, no middlemen.
+          A small, senior-led studio that flipped the agency model: build first, prove it, then ask for payment.
         </p>
       </div>
 
@@ -20,25 +20,16 @@ export function About() {
         <div className="space-y-8">
           <div className="prose prose-invert max-w-none">
             <p className="text-muted-foreground leading-relaxed mb-6">
-              I&apos;m Raphael, a web developer based in Lagos, Nigeria, working with
-              businesses across the US, UK, Australia, and Africa.
+              Most agencies ask you to pay first and hope for the best. We flipped that.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              I got into this work because I kept seeing local businesses lose
-              customers to slow, broken, or confusing websites. The kind that
-              take forever to load on mobile, break on different screen sizes,
-              or just don&apos;t communicate what the business actually does.
+              Eloka Builds is built around one idea: <strong>show the work before asking for the money.</strong> Before we ever reach out to a business, we&apos;ve already built them a real, working website — fully designed, fully functional, ready to publish. You&apos;re not buying a promise or a mockup. You&apos;re looking at the finished product.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              My approach is different: I audit your current site first, then
-              build a working demo — often before we&apos;ve even spoken — so you can
-              see exactly what you&apos;re getting. No pressure, no upfront payment,
-              no surprises.
+              Behind Eloka Builds is Raphael Ejeogo, a web developer who got tired of watching good local businesses lose customers to outdated, slow websites — and tired of watching agencies charge upfront for work clients hadn&apos;t seen yet. So the model changed: build first, prove it, then get paid.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I&apos;m not building websites, I&apos;m probably learning something
-              new about performance optimization or helping other developers
-              level up their craft.
+              No account managers. No lengthy contracts. No surprises. Just a finished site and a straightforward yes or no.
             </p>
           </div>
 
