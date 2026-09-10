@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { ArrowRight, MousePointer, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui";
-import { cn } from "@/lib/utils";
 
 export function Hero() {
   const scrollToSection = (href: string) => {

@@ -1,4 +1,4 @@
-import { HTMLAttributes, ReactNode, ComponentPropsWithoutRef } from "react";
+import { ReactNode, ComponentPropsWithoutRef } from "react";
 import { cn } from "@/lib/utils";
 
 export interface SectionProps extends ComponentPropsWithoutRef<"section"> {

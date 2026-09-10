@@ -1,9 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { Mail, Send, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
+import { Mail, Send, CheckCircle, AlertCircle } from 'lucide-react';
 import { Section, Button, Input, Textarea } from '@/components/ui';
-import { cn } from '@/lib/utils';
 
 interface FormData {
 	name: string;

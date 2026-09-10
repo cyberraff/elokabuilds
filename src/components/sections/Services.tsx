@@ -53,7 +53,7 @@ export function Services() {
       </div>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-        {services.map((service, index) => (
+        {services.map((service) => (
           <Card
             key={service.title}
             className={cn(
@@ -95,7 +95,7 @@ export function Services() {
       <div className="mt-12 text-center">
         <p className="text-muted-foreground max-w-2xl mx-auto">
           <strong className="text-foreground">Every engagement starts with a free audit.</strong>
-          No payment until you've seen a working demo and you're happy to proceed.
+          No payment until you&apos;ve seen a working demo and you&apos;re happy to proceed.
         </p>
       </div>
     </Section>

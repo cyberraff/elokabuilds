@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { ExternalLink, Monitor, Smartphone, Code2 } from 'lucide-react';
+import { ExternalLink, Monitor } from 'lucide-react';
 import { Section, Card, CardContent, CardFooter } from '@/components/ui';
 
 const caseStudies = [
@@ -183,7 +183,7 @@ export function Work() {
 							.querySelector('#contact')
 							?.scrollIntoView({ behavior: 'smooth' });
 					}}>
-					Have a project in mind? Let's talk
+					Have a project in mind? Let&apos;s talk
 					<Monitor className='h-4 w-4' aria-hidden='true' />
 				</a>
 			</div>

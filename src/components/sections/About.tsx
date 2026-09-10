@@ -20,23 +20,23 @@ export function About() {
         <div className="space-y-8">
           <div className="prose prose-invert max-w-none">
             <p className="text-muted-foreground leading-relaxed mb-6">
-              I'm Raphael, a web developer based in Lagos, Nigeria, working with
+              I&apos;m Raphael, a web developer based in Lagos, Nigeria, working with
               businesses across the US, UK, Australia, and Africa.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               I got into this work because I kept seeing local businesses lose
               customers to slow, broken, or confusing websites. The kind that
               take forever to load on mobile, break on different screen sizes,
-              or just don't communicate what the business actually does.
+              or just don&apos;t communicate what the business actually does.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
               My approach is different: I audit your current site first, then
-              build a working demo — often before we've even spoken — so you can
-              see exactly what you're getting. No pressure, no upfront payment,
+              build a working demo — often before we&apos;ve even spoken — so you can
+              see exactly what you&apos;re getting. No pressure, no upfront payment,
               no surprises.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I'm not building websites, I'm probably learning something
+              When I&apos;m not building websites, I&apos;m probably learning something
               new about performance optimization or helping other developers
               level up their craft.
             </p>

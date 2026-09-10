@@ -7,11 +7,6 @@ import Image from 'next/image';
 import {
 	ArrowLeft,
 	ExternalLink,
-	Calendar,
-	Clock,
-	MapPin,
-	Tag,
-	Code2,
 } from 'lucide-react';
 import { Section, Card, CardContent } from '@/components/ui';
 
