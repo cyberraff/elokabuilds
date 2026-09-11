@@ -10,8 +10,7 @@ const caseStudies = [
 		slug: 'local-law-firm',
 		name: 'Local Law Firm Rebuild',
 		category: 'Legal / Professional Services',
-		problem:
-			"Slow, outdated site that didn't work on mobile. Potential clients couldn't contact them easily.",
+		problem: 'Rebuilt for speed and mobile conversion — clients can now find, contact, and book the firm in seconds.',
 		solution:
 			'Rebuilt with Next.js — fast, accessible, mobile-first. Added clear CTAs, contact forms, and practice area pages.',
 		outcome:
@@ -24,8 +23,7 @@ const caseStudies = [
 		slug: 'boutique-hotel',
 		name: 'Boutique Hotel Website',
 		category: 'Hospitality',
-		problem:
-			'Booking flow was broken on mobile. Images unoptimized. No clear value proposition.',
+		problem: 'Rebuilt booking flow end-to-end — mobile-optimized, image-heavy pages now load instantly.',
 		solution:
 			'Redesigned with focus on visual storytelling. Integrated booking engine. Optimized all assets.',
 		outcome: 'Mobile conversions up 60%. PageSpeed from 32 to 91.',
@@ -37,8 +35,7 @@ const caseStudies = [
 		slug: 'healthcare-clinic',
 		name: 'Healthcare Clinic Portal',
 		category: 'Healthcare',
-		problem:
-			"Patients couldn't book appointments online. Site loaded in 8+ seconds. Not HIPAA-aware.",
+		problem: 'New patient booking system built from scratch — appointments now open 24/7, no phone tag required.',
 		solution:
 			'Built patient portal with appointment scheduling. Optimized for Core Web Vitals. Added privacy-first forms.',
 		outcome: 'Online bookings increased 3x. Load time under 2s.',
@@ -50,8 +47,7 @@ const caseStudies = [
 		slug: 'ecommerce-retail',
 		name: 'Local Retail E-commerce',
 		category: 'Retail',
-		problem:
-			'WooCommerce site crashing under traffic. Cart abandonment at 85%. No analytics.',
+		problem: 'Rebuilt on a stack that holds up under real traffic — cart abandonment down, checkout that doesn\'t break.',
 		solution:
 			'Migrated to Next.js + Shopify headless. Added proper tracking. Optimized checkout flow.',
 		outcome: 'Revenue up 120% YoY. Zero downtime during peak seasons.',
@@ -63,8 +59,7 @@ const caseStudies = [
 		slug: 'education-platform',
 		name: 'Online Course Platform',
 		category: 'Education',
-		problem:
-			'Custom PHP platform unmaintainable. Video playback broken on mobile. No student dashboard.',
+		problem: 'Modern playback and dashboard experience rebuilt for mobile students from the ground up.',
 		solution:
 			'Rebuilt with Next.js. Integrated Mux for video. Built student progress tracking.',
 		outcome: 'Course completion rate up 45%. Mobile engagement doubled.',
@@ -76,8 +71,7 @@ const caseStudies = [
 		slug: 'trades-construction',
 		name: 'Construction Company Site',
 		category: 'Trades / Construction',
-		problem:
-			'No portfolio of past work. Contact form broken. Not ranking locally.',
+		problem: 'New site built to actually generate leads — working contact form, real local SEO, a portfolio that sells the work.',
 		solution:
 			'Built project showcase with filtering. Fixed forms. Added local SEO schema and location pages.',
 		outcome: 'Organic leads up 200%. 15+ qualified quotes/month.',
